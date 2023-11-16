@@ -34,7 +34,7 @@
     "8106/tcp": "Frontend tcp-listen port"
   },
   "options": {
-    "data_path": "/config/zigbee2mqtt-7,
+    "data_path": "/config/zigbee2mqtt-7",
     "socat": {
       "enabled": false,
       "master": "pty,raw,echo=0,link=/tmp/ttyZ2M,mode=777",
