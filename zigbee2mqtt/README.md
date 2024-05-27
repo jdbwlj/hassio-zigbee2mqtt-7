@@ -24,7 +24,14 @@
 
 MQTT:
 ```shell
-#不填
+base_topic: zigbee2mqtt7
+#base_topic多加一个7 区分多开主题
+server: mqtt://localhost:1883
+#mqtt在Home Assistantaz 安装，localhost是Home Assistantaz的ip,端口1883
+user: mqtt
+password: mqtt
+client_id: zigbee2mqtt7
+#client_id多加一个7 区分多开mqtt客户端id
 ```
 
 serial:
